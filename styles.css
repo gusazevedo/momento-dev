@@ -11,3 +11,17 @@
 .footer {
     border: 1px solid grey;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b0b089;
+    
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+    "nav head head head"
+    "nav  main main main"
+    "foot foot foot foot";
+}
