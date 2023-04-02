@@ -31,14 +31,19 @@ body {
 .header {
     grid-area: head;
     background-color: #439A86;
+    border-top: none;
+    border-right: none;
 }
 
 .main {
     grid-area: main;
     background-color: #BCD8C1;
+    border-right: 0;
 }
 
 .aside {
+    border-top: none;
+    border-left: none;
     grid-area: nav;
     background-color: #007991;
 }
@@ -46,6 +51,9 @@ body {
 .footer {
     grid-area: foot;
     background-color: #222E50;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
 
     font-size: 18px;
     font-weight: bold;
