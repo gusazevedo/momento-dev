@@ -46,4 +46,17 @@ body {
 .footer {
     grid-area: foot;
     background-color: #222E50;
+
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #e1e1e1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    cursor: default;
 }
