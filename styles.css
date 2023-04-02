@@ -28,16 +28,20 @@ body {
 
 .header {
     grid-area: head;
+    background-color: #439A86;
 }
 
 .main {
     grid-area: main;
+    background-color: #007991;
 }
 
 .aside {
     grid-area: nav;
+    background-color: #BCD8C1;
 }
 
 .footer {
     grid-area: foot;
+    background-color: #222E50;
 }
