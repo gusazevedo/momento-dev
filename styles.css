@@ -9,10 +9,12 @@
 .aside,
 .article,
 .footer {
-    border: 1px solid grey;
+    border: 5px solid black;
+    padding: 8px;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
     background-color: #b0b089;
@@ -33,12 +35,12 @@ body {
 
 .main {
     grid-area: main;
-    background-color: #007991;
+    background-color: #BCD8C1;
 }
 
 .aside {
     grid-area: nav;
-    background-color: #BCD8C1;
+    background-color: #007991;
 }
 
 .footer {
