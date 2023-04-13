@@ -74,6 +74,18 @@ body {
     grid-area: main;
     background-color: #BCD8C1;
     border-right: 0;
+
+    display: flex;
+    gap: 12px;
+}
+
+article {
+    padding: 16px;
+    border: 10px solid black;
+    background-color: #95b2b8;
+    flex: 1;
+
+    font-size: 18px;
 }
 
 .aside {
